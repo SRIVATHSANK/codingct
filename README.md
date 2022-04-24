@@ -1,11 +1,25 @@
-//Program to Multiplication of two numbers
-#include<stdio.h>
+#include <stdio.h>
+
 int main()
-{
-	int num1,num2,product;
-	printf("Enter two numbers:");
-	scanf("%d %d",&num1,&num2);
-	product=num1*num2;
-	printf("Product of two numbers: %d",product);
-	return  0;
+
+{int A,B;
+
+int K;
+
+scanf("%d %d %d",&A,&B,&K);
+
+if(A>=K)
+
+printf("%d %d",(A-K),B);
+
+else if(A<=K)
+
+printf("%d %d",0,B-(K-A));
+
+else
+
+printf("%d %d" ,0,0);
+
+               return 0;
+
 }
